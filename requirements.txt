@@ -1,16 +1,9 @@
-# Core Web Framework
-streamlit==1.50.0
 
-# Data Processing
-pandas==2.3.3
-numpy==2.0.2
-
-# Visualization
-plotly==6.5.0
-matplotlib==3.9.4
-wordcloud==1.9.5
-
-# AI/ML (Optimized)
---index-url https://download.pytorch.org/whl/cpu
-torch==2.8.0
-transformers==4.57.3
+numpy
+streamlit
+pandas
+transformers
+plotly
+wordcloud
+matplotlib
+torch
