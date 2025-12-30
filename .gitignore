@@ -21,7 +21,7 @@ lib/
 Thumbs.db
 
 # Project-specific Data
-scraped_reviews.csv
+# scraped_reviews.csv
 
 # PyTorch/Machine Learning artifacts
 *.pt
