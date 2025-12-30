@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+.env
+
+# Streamlit/OS folders
+.streamlit/
+.DS_Store
+
+# Data (Optional: only if you want to keep your data private)
+scraped_reviews.csv
