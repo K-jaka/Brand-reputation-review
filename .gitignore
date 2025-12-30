@@ -1,14 +1,29 @@
-# Python cache
+# Python bytecode
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Virtual Environment
+# Virtual Environments (Covers all common naming conventions)
+.venv/
 venv/
+env/
+ENV/
+bin/
+lib/
+
+# Environment Variables / Secrets
 .env
+.flaskenv
 
-# Streamlit/OS folders
-.streamlit/
+# OS-specific files
 .DS_Store
+Thumbs.db
 
-# Data (Optional: only if you want to keep your data private)
+# Project-specific Data
 scraped_reviews.csv
+
+# PyTorch/Machine Learning artifacts
+*.pt
+*.pth
+*.bin
