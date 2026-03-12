@@ -28,7 +28,7 @@ pip3 install -r requirements.txt
 python3 scraper.py
 
 # 4. Launch the dashboard
-streamlit run app.py
+python3 -m streamlit run app.py
 ```
 
 The app will open at `http://localhost:8501`. The first run will be slow as DistilBERT (~250MB) downloads and caches automatically.
