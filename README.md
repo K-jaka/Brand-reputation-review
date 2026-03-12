@@ -25,7 +25,7 @@ git clone https://github.com/K-jaka/Brand-reputation-review
 pip3 install -r requirements.txt
 
 # 3. Run the scraper to generate the data file
-python scraper.py
+python3 scraper.py
 
 # 4. Launch the dashboard
 streamlit run app.py
