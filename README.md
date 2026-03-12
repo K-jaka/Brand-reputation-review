@@ -22,7 +22,7 @@ Requires Python 3.8+.
 git clone https://github.com/K-jaka/Brand-reputation-review
 
 # 2. Install dependencies
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
 # 3. Run the scraper to generate the data file
 python scraper.py
